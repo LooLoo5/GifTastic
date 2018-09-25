@@ -1,4 +1,4 @@
-var topics 
+var topics = ["Dog", "Cat", "Horse"];
 
 $("button").on("click", function() {
 })
@@ -13,4 +13,5 @@ var queryURL = "https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC";
     });
 
     for (var i = 0; i < results.length; i++) {
+        
     }
